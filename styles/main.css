@@ -47,6 +47,10 @@ footer {
 }
 
 
+p{
+    color: black;
+}
+
 #top {
     background-color: #ccc;
     padding: 20px;
