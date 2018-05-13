@@ -45,3 +45,15 @@ header img {
 footer {
     font-size: .90em;
 }
+
+
+
+#top {
+    background-color: #ccc;
+    padding: 20px
+}
+
+.intro {
+    color: red;
+    font-weight: bold;
+}
