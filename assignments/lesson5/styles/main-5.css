@@ -1,0 +1,128 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;
+    margin: 10;
+}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  align-content: center;
+  font-size: 16px;
+  font-family: serif;
+  margin-left: auto;
+  margin-right: auto;
+    /* Declare the base font-family */
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+
+
+header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+  max-width:100%; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+header {
+  
+}
+header h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+header img {
+    background-color: none;
+}
+header p {
+   text-align: center;
+   font-family: serif;
+}
+table{
+    margin: auto;
+}
+
+.img2 {
+    display: block;
+    float: right;
+    width: 25%;  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: ;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+th, td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 0.5em;
+    margin-left: 0%;
+}
+
+
+th{
+    background-color: lightblue;
+}
+
+td{
+    
+}
+
+h3 {
+    text-align: center;
+    padding: 10px
+}
+
+.sum-td{
+    background-color: lightblue;
+    
+}
+.summary{
+    display: block; 
+   
+}
+.forecast {
+    text-align: center;
+}
+
+main {}
+main h2 {}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img { }
+
+footer {
+    text-align: center;
+    color: white;
+}
+.contact{
+    background-color: gray;
+    padding: 10px;
+}
+
+.footer-bar{
+    background-color: gray;
+    padding: 10px;
+}
