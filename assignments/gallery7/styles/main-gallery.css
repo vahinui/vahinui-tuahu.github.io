@@ -60,7 +60,7 @@ header img {
 }
 
 /*----1COLUMN----*/
-@media screen and (mx-width:600px){
+@media screen and (max-width:600px){
     .grid-container1{
         grid-template-columns: 100%;
         max-width: 100%;
