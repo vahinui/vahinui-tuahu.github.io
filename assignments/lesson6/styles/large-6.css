@@ -1,0 +1,21 @@
+
+@media only screen and (min-width: 64em){ /*{
+        body{
+         width:75%;
+         margin:0 auto;
+    }
+    
+nav ul li {
+    display:inline;
+}
+    nav ul li a {
+        padding: .6em 1em;
+    }*/
+    header, nav, main, footer{
+        max-width: 64em;
+        margin: auto;
+    }
+    nav ul li a{
+        padding: .8rem .5rem;
+}
+}

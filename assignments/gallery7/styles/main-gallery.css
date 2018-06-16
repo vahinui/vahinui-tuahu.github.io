@@ -1,0 +1,113 @@
+/*-----header here-----*/
+
+header {
+    padding: .5em 2%;
+    background-color: #ddd;
+}
+header h1 {
+    margin:0;
+    font-family: 'Fjalla One', sans-serif;
+}
+header h2 {
+    margin: 0;
+    font-weight: normal;
+    font-family: 'Neuton', serif;
+}
+header img {
+    float:left;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-left:2%;
+       
+}
+
+ /* This wildcard applies to all elements ensuring a box layout model */
+
+* { box-sizing: border-box;
+    margin: 10;
+}
+
+/*----MAIN----*/
+
+/*----3 COLUMNS----*/
+.grid{
+    padding: 0 4px;
+}
+
+.grid-container1{
+    display: grid;
+    grid-gap: 50px 100px;
+    grid-template-columns: 25% 25% 25%;
+    padding: 0 4px;
+    max-width: 100%;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.grid-item{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+/*----2COLUMNS----*/
+@media screen and (max-width: 800px){
+    .grid-container1{
+        grid-template-columns: 50% 50%;
+        max-width: 100%;
+    }
+}
+
+/*----1COLUMN----*/
+@media screen and (mx-width:600px){
+    .grid-container1{
+        grid-template-columns: 100%;
+        max-width: 100%;
+    }
+}
+
+/*----IMAGE----*/
+img:hover{
+    box-shadow: 10px 10px 5px grey;
+}
+
+/*-----NAVIGATION-----*/
+li a:hover {
+    background-color: #111;
+}
+
+
+.container1{
+    display:flex;
+    justify-content:space-around;
+}
+
+li.flexItem1{
+    background-color: gray;
+    font-family: Verdana, sans-serif;
+    padding: .6em;
+}
+
+/*-----FOOTER-----*/
+footer {
+    text-align: center;
+    color: white;
+}
+.contact{
+    background-color: gray;
+    padding: 10px;
+}
+
+.footer-bar{
+    background-color: gray;
+    padding: 10px;
+}
+
+/*-----Clearfix-----*/
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
